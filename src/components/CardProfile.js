@@ -5,19 +5,20 @@ import React from 'react'
 import siteConfig from '../../site-config'
 
 export default () => (
-  <div>
+  <Box direction='row' justify='end'>
     <Box
       round='small'
       pad='medium'
       margin='small'
       wrap
       overflow='hidden'
+      width='medium'
+      alignSelf='end'
     >
       <Box direction='row-responsive'>
         <Box
           margin='small'
           round='full'
-          basis='auto'
           overflow='hidden'
         >
           <Image
@@ -70,5 +71,5 @@ export default () => (
   )}
 </Box>
     </Box>
-  </div>
+  </Box>
 )

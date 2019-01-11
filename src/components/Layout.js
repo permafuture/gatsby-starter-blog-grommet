@@ -40,13 +40,13 @@ export default props => {
           <Box width='xlarge'>
             <SiteHeader />
             <main>
-              <Box direction='row-responsive'>
-              <Box basis='medium'>
+              <Box direction='row-responsive'  alignContents='end'>
+              <Box>
                 <aside>
                   <CardProfile />
                 </aside>
               </Box>
-              <Box basis='large' flex='grow' direction='row-responsive'>
+              <Box basis='medium' flex='grow' direction='row-responsive'>
                   {props.children}
                 </Box>
 
