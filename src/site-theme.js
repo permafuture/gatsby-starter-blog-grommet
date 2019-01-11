@@ -8,7 +8,8 @@ export const siteTheme = {
       family: siteConfig.font
     },
     colors: {
-      brand: siteConfig.brandColor
+      brand: siteConfig.brandColor,
+      background: '#fffff'
     },
     breakpoints: {
       xsmall: {
@@ -23,7 +24,8 @@ export const siteTheme = {
       middle: {
         value: 3000
       }
-    }
+    },
+    borderWidth: 6,
   },
   heading: {
     font: {

@@ -12,6 +12,7 @@ import SiteFooter from './SiteFooter'
 import SiteHeader from './SiteHeader'
 
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
   img {
     /* border-radius: 14px; */
     max-width: 100%;
@@ -40,14 +41,15 @@ export default props => {
             <SiteHeader />
             <main>
               <Box direction='row-responsive'>
-                <Box basis='large' flex='grow' direction='row-responsive'>
+              <Box basis='medium'>
+                <aside>
+                  <CardProfile />
+                </aside>
+              </Box>
+              <Box basis='large' flex='grow' direction='row-responsive'>
                   {props.children}
                 </Box>
-                <Box basis='medium'>
-                  <aside>
-                    <CardProfile />
-                  </aside>
-                </Box>
+                
               </Box>
             </main>
           </Box>

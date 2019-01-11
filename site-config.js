@@ -3,22 +3,22 @@ module.exports = {
   // Change information to your own:
   //
   // Site Info:
-  title: 'Gatsby Starter Blog Grommet v2',
-  description: 'This is a DEMO site! SSG - Gatsby JS, UI - Grommet v2',
+  title: 'Max Anton Brewer',
+  description: 'permanent futures',
   siteUrl: 'https://ganevru.github.io/gatsby-starter-blog-grommet/',
   footerText:
-    '**2018**<br><br>Go here: site-config.js, and replace this text with your own', // You can use Markdown markup here
+    '**2019**<br><br>copyleft, fork me', // You can use Markdown markup here
 
   // Blog Author Info:
-  author: 'Ivan Ganev',
+  author: 'Max Anton Brewer',
   authorImage:
-    'https://pbs.twimg.com/profile_images/986603715732934656/7A4Nt68k_400x400.jpg',
+    'http://permafuture.net/images/stonehenge.jpg',
   authorBio:
-    "Hello, I'm Ivan Ganev and I made this blog starter for Gatsby js using UI Grommet v2. <br><br>Repo of this starter: [github.com/ganevru/gatsby-starter-blog-grommet](https://github.com/ganevru/gatsby-starter-blog-grommet) <br><br>Go here: site-config.js, and replace this text with your own", // You can use Markdown markup here
+    "**I'm Max. I hack the future.**<br><br>I **write**, **design** and **build** at the intersection of *long-term thinking* and *catastrophic change*.<br><br>I'm a certified Permaculture designer, a member of the Long Now Foundation, and an Associate of the Institute of Atemporal Studies.<br><br>**When the 21st century really kicks in, I will be with the book people, protecting the books.**<br><br>*contact me: permafuture @ protonmail.com*<br><br>", // You can use Markdown markup here
   social: {
-    twitter: 'ganevru',
-    github: 'ganevru',
-    reddit: 'ganevru'
+    twitter: 'oermafuturist',
+    github: 'permafuture',
+    reddit: ''
   },
 
   // Services:
@@ -26,9 +26,9 @@ module.exports = {
 
   // Site Style:
   theme: 'grommet', // dark | hpe | grommet
-  font: '', // Roboto
-  fontHeadings: '', // Merriweather
-  brandColor: '' // #7D4CDB
+  font: 'Libre Baskerville', // Roboto
+  fontHeadings: 'Libre Baskerville', // Merriweather
+  brandColor: '#000000' // #ff6700
 
   // TODO:
   // pathPrefix: null,
