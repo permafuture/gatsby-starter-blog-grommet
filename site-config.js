@@ -11,10 +11,11 @@ module.exports = {
 
   // Blog Author Info:
   author: 'Max Anton Brewer',
+  authorTag: "I'm Max. I hack futures.",
   authorImage:
     'http://permafuture.net/images/stonehenge.jpg',
   authorBio:
-    "**I'm Max. I hack the future.**<br><br>I **write**, **design** and **build** at the intersection of *long-term thinking* and *catastrophic change*.<br><br>I'm a certified Permaculture designer, a member of the Long Now Foundation, and an Associate of the Institute of Atemporal Studies.<br><br>**When the 21st century really kicks in, I will be with the book people, protecting the books.**<br><br>*contact me: permafuture @ protonmail.com*<br><br>", // You can use Markdown markup here
+    "I **write**, **design** and **build** at the intersection of *long-term thinking* and *catastrophic change*.<br><br>I'm a certified Permaculture designer, a member of the Long Now Foundation, and an Associate of the Institute of Atemporal Studies.<br><br>**When the 21st century really kicks in, I will be with the book people, protecting the books.**<br><br>*contact me: permafuture @ protonmail.com*<br><br>", // You can use Markdown markup here
   social: {
     twitter: 'oermafuturist',
     github: 'permafuture',
@@ -28,7 +29,7 @@ module.exports = {
   theme: 'grommet', // dark | hpe | grommet
   font: 'Libre Baskerville', // Roboto
   fontHeadings: 'Libre Baskerville', // Merriweather
-  brandColor: '#000000' // #ff6700
+  brandColor: '#01060f' // #ff6700
 
   // TODO:
   // pathPrefix: null,

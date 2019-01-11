@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 
+import siteConfig from '../../site-config'
+
 // Target another styled component on hover
 // https://www.styled-components.com/docs/advanced#referring-to-other-components
 // Psuedoelements, psuedoselectors, and nesting
@@ -12,6 +14,7 @@ const CardHover = styled.div`
     opacity: 0.8;
   }
 `
+const brandCo = siteConfig.brandColor;
 
 export default props => {
   return (
@@ -22,11 +25,11 @@ export default props => {
           style={{
             boxShadow: 'none',
             textDecoration: 'none',
-            textColor: 'none'
+            color: brandCo
           }}
         >
           <Box
-            round='small'
+            round='false'
             elevation='small'
             border={{
               side: 'all',
@@ -44,7 +47,7 @@ export default props => {
               <div />
             ) : (
               <div>
-                <Box round={{ size: 'small', corner: 'top' }} overflow='hidden'>
+                <Box round={{ size: 'false', corner: 'top' }} overflow='hidden'>
                   <Box height='small' background='border'>
                     <Image src={props.cover} fit='cover' />
                   </Box>

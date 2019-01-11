@@ -9,7 +9,11 @@ export const siteTheme = {
     },
     colors: {
       brand: siteConfig.brandColor,
-      background: '#fffff'
+      background: '#fefefe',
+      text: {
+        dark: '#e1e6ef',
+        light: '#11100e'
+      }
     },
     breakpoints: {
       xsmall: {
@@ -30,6 +34,7 @@ export const siteTheme = {
   heading: {
     font: {
       family: siteConfig.fontHeadings
-    }
+    },
+    color: '#000000'
   }
 }

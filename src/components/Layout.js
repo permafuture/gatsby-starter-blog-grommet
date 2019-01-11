@@ -49,7 +49,7 @@ export default props => {
               <Box basis='large' flex='grow' direction='row-responsive'>
                   {props.children}
                 </Box>
-                
+
               </Box>
             </main>
           </Box>
